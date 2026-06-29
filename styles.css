@@ -69,7 +69,7 @@ a {
 
 .hero__content {
   align-self: end;
-  width: min(820px, 100%);
+  width: min(900px, 100%);
   padding-bottom: clamp(28px, 8vh, 88px);
 }
 
@@ -84,20 +84,61 @@ a {
 
 h1 {
   margin: 0;
-  max-width: 11ch;
+  max-width: 12ch;
   color: var(--paper);
-  font-size: clamp(4rem, 12vw, 9.5rem);
+  font-size: clamp(3.35rem, 8vw, 7.7rem);
   font-weight: 850;
   letter-spacing: 0;
-  line-height: 0.88;
+  line-height: 0.9;
 }
 
 .lede {
   width: min(660px, 100%);
-  margin: 30px 0 0;
+  margin: 28px 0 0;
   color: var(--paper-soft);
   font-size: clamp(1.1rem, 2vw, 1.55rem);
   line-height: 1.48;
+}
+
+.authors {
+  width: min(720px, 100%);
+  margin-top: 28px;
+  color: var(--paper-soft);
+}
+
+.authors h2 {
+  margin: 0 0 12px;
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.authors ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.authors li {
+  color: var(--muted);
+  font-size: clamp(0.92rem, 1.35vw, 1.05rem);
+  line-height: 1.35;
+}
+
+.authors span {
+  color: var(--paper);
+  font-weight: 800;
+}
+
+.authors span::after {
+  content: ", ";
+  color: var(--muted);
+  font-weight: 500;
 }
 
 .actions {
@@ -203,7 +244,7 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(3.5rem, 19vw, 6.3rem);
+    font-size: clamp(3.05rem, 13vw, 5.8rem);
   }
 
   .side-rail {
@@ -225,7 +266,7 @@ h1 {
   .hero__content {
     align-self: center;
     padding-top: 84px;
-    padding-bottom: 220px;
+    padding-bottom: 178px;
   }
 
   .lede {
@@ -239,12 +280,28 @@ h1 {
 
   .button {
     width: 100%;
+    min-height: 44px;
+    padding-block: 12px;
   }
 
   .side-rail {
+    position: fixed;
     left: 20px;
     right: 20px;
-    bottom: 20px;
-    grid-template-columns: 1fr;
+    bottom: 16px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .side-rail a {
+    padding: 10px 0 10px 12px;
+  }
+
+  .side-rail span {
+    font-size: 0.68rem;
+  }
+
+  .side-rail strong {
+    font-size: 0.82rem;
   }
 }

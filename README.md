@@ -1,6 +1,6 @@
-# Funding Science Landing Page
+# Who Funds What in Modern Science?
 
-Static landing page for `https://filipinascimento.github.io/fundingscience/`.
+Static landing page for `https://filipinascimento.github.io/sciencefunding/`.
 
 - Primary destination: https://fundingofscience.surge.sh/
 - Paper link: placeholder until the preprint is available.
