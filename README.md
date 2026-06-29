@@ -1,8 +1,5 @@
-# Who Funds What in Modern Science?
+# Funding Science Redirect
 
-Static landing page for `https://filipinascimento.github.io/sciencefunding/`.
+This repository redirects to the correct GitHub Pages site:
 
-- Primary destination: https://fundingofscience.surge.sh/
-- Paper link: placeholder until the preprint is available.
-
-The site is designed to be served from the repository root by GitHub Pages.
+- https://filipinascimento.github.io/sciencefunding/
